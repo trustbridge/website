@@ -2,7 +2,7 @@ locale                   : "en-US"
 title                    : "Trust Bridge"
 title_separator          : "|"
 name                     : "Steven Capell"
-description              : "Trust Bridge - Building Bridges with Secure Digital Administration"
+description              : "Trust Bridge - An open source implementation of the UN Inter-Customs Ledger protocol"
 
 teaser                   : /assets/img/trust-bridge-og-image.png
 
