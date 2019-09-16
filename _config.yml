@@ -4,7 +4,7 @@ title_separator          : "|"
 name                     : "Steven Capell"
 description              : "Trust Bridge - Building Bridges with Secure Digital Administration"
 
-teaser                   :
+teaser                   : /assets/img/trust-bridge-og-image.png
 
 
 
@@ -22,5 +22,5 @@ analytics:
 
 
 
-og_image                 : # Open Graph/Twitter default site image
+og_image                 :  /assets/img/trust-bridge-og-image.png # Open Graph/Twitter default site image
 
