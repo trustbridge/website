@@ -1,16 +1,121 @@
 /* base style */
-
-
+body {
+  font-family: 'Raleway', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 20px;
+}
+h2 {
+  font-size: 26px;
+}
 /* hero section style */
 .home-hero {
-  background-image: url(/img/trusst-bridge-header-bg.jpg);
+  background-image: url(/assets//img/trust-bridge-header-bg.jpg);
+  height: 80vh;
+  min-height: 450px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
 }
-.logo-trust {
-
+.home-hero .container {
+  height: 100%;
 }
-.logo-bridge {
-
+.hero-text-wrap {
+  height: 100%;
+  align-content: center;
 }
-.tagline {
+.home-hero .hero-text h1 {
+  color: #ffffff;
+  font-size: 30px;
+}
+.hero-text .logo-trust, .hero-text .logo-bridge {
+  text-transform: uppercase;
+  font-size: 48px;
+  display: block
+}
+.hero-text .logo-trust {
+  color: #4f8cd5;
+}
+.hero-text .tagline {
+  font-size: 24px;
+  font-style: italic;
+  font-weight: normal;
+}
 
+
+
+/* image utilitites */
+img {
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img-50 {
+  width: 50%;
+}
+.img-60 {
+  width: 60%;
+}
+.img-70 {
+  width: 70%;
+}
+@media (max-width: 768px) {
+  .img-50 {
+    width: 100%;
+  } 
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+.mb-15 {
+  margin-bottom: 15px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+.mb-25 {
+  margin-bottom: 25px;
+}
+.mb-30 {
+  margin-bottom: 30px;
+}
+.mb-40 {
+  margin-bottom: 40px;
+}
+.mb-45 {
+  margin-bottom: 45px;
+}
+
+/* content section style */
+
+.content {
+  padding: 45px 0;
+}
+p {
+  margin-bottom: 20px;
+}
+.brand-light-text {
+  color: #88cdee;
+}
+.brand-dark-text {
+  color: #4f8cd5;
+  font-size: 26px;
+}
+
+.solution {
+  background-color: #dce9f7;
+  padding: 45px 0;
+}
+
+.footer {
+  padding-top: 45px;
+  background: #041a3d;
+  color: #ffffff;
+}
+.footer a, .footer a:hover, .footer a:visited {
+  color: #ffffff;
 }
