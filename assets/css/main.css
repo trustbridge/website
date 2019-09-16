@@ -44,14 +44,22 @@ h2 {
   font-weight: normal;
 }
 
+@media (max-width: 767px) {
+  .home-hero {
+    background-position: left;
+  }
+}
 
 
 /* image utilitites */
-img {
+img, .plyr--video {
   max-width: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+.plyr--video {
+  margin: 30px 0;
 }
 .img-50 {
   width: 50%;
@@ -62,7 +70,7 @@ img {
 .img-70 {
   width: 70%;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .img-50 {
     width: 100%;
   } 
@@ -118,4 +126,8 @@ p {
 }
 .footer a, .footer a:hover, .footer a:visited {
   color: #ffffff;
+}
+
+a {
+  word-break: break-all;
 }
